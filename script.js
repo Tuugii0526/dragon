@@ -4,6 +4,7 @@ const stopButton = document.getElementById("stop");
 const nextPlayButton = document.getElementById("next");
 const shuffleButtton = document.getElementById("shuffle");
 const playlist = document.getElementById("playlistUl");
+const BACKEND = "https://music-provider.onrender.com/songs";
 const allSongs = [
   {
     id: 0,
@@ -74,6 +75,76 @@ const allSongs = [
     artist: "Quincy Larson",
     duration: "2:43",
     src: "https://cdn.freecodecamp.org/curriculum/js-music-player/chasing-that-feeling.mp3",
+  },
+  {
+    id: 10,
+    title: "Photograph",
+    artist: "Ed sheeran",
+    duration: "4:17",
+    src: `${BACKEND}/photograph-edsheeran.mp3`,
+  },
+  {
+    id: 11,
+    title: "Agitation tropicales",
+    artist: "L'Impératrice",
+    duration: "4:10",
+    src: `${BACKEND}/agitation-tropicales.mp3`,
+  },
+  {
+    id: 12,
+    title: "Amour plastique",
+    artist: "Adèle Castillon, Mattyeux, and Videoclub",
+    duration: "4:10",
+    src: `${BACKEND}/agitation-tropicales.mp3`,
+  },
+  {
+    id: 13,
+    title: "Birds of a feather",
+    artist: "Billie Eillish",
+    duration: "3:31",
+    src: `${BACKEND}/birds-of-a-bird.mp3`,
+  },
+  {
+    id: 14,
+    title: "Je pense a toi",
+    artist: "Lewis ofman",
+    duration: "4:20",
+    src: `${BACKEND}/je-pense-a-toi.mp3`,
+  },
+  {
+    id: 15,
+    title: "Perfect",
+    artist: "Ed sheeran",
+    duration: "4:23",
+    src: `${BACKEND}/perfect.mp3`,
+  },
+  {
+    id: 16,
+    title: "Plein de bisous",
+    artist: "Lewis ofman",
+    duration: "3:10",
+    src: `${BACKEND}/plein-de-bisous.mp3`,
+  },
+  {
+    id: 17,
+    title: "Put it all on me",
+    artist: "Ed sheeran",
+    duration: "3:37",
+    src: `${BACKEND}/put-it-all-on-me.mp3`,
+  },
+  {
+    id: 18,
+    title: "Thank you",
+    artist: "Su lee",
+    duration: "3:01",
+    src: `${BACKEND}/thank-you.mp3`,
+  },
+  {
+    id: 19,
+    title: "Thinking out loud",
+    artist: "Ed sheeran",
+    duration: "4:41",
+    src: `${BACKEND}/thinking-out-loud.mp3`,
   },
 ];
 const userData = {
