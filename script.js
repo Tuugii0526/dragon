@@ -95,7 +95,7 @@ const allSongs = [
     title: "Amour plastique",
     artist: "Adèle Castillon, Mattyeux, and Videoclub",
     duration: "4:10",
-    src: `${BACKEND}/agitation-tropicales.mp3`,
+    src: `${BACKEND}/amour-plastique.mp3`,
   },
   {
     id: 13,
